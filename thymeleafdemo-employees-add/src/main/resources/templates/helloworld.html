@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<title>Spring Boot Web Application - Thymeleaf Demo</title>
+	<!-- reference css file -->
+	<link rel="stylesheet" th:href="@{/css/demo.css}"></link>
+</head>
+<body>
+	<p th:text="'Time on the server is ' + ${theDate}"></p>
+</body>
+</html>
